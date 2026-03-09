@@ -1,0 +1,19 @@
+{
+  "name": "marketing-site",
+  "version": "0.1.0",
+  "description": "Public marketing site, landing pages, and campaign management for InstaPass platform.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "vitest"
+  },
+  "keywords": ["marketing", "landing", "campaign", "instapass"],
+  "author": "IPIC-Tech",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "vitest": "^0.34.0"
+  }
+}
